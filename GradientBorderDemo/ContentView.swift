@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    func alert(){
+        
+    }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ToDosView(todos: ToDoList.sampleData)
     }
 }
 

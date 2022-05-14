@@ -11,6 +11,12 @@
 		E9C8EF3E282C124B00F8DEE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EF3D282C124B00F8DEE8 /* ContentView.swift */; };
 		E9C8EF40282C125000F8DEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C8EF3F282C125000F8DEE8 /* Assets.xcassets */; };
 		E9C8EF43282C125000F8DEE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C8EF42282C125000F8DEE8 /* Preview Assets.xcassets */; };
+		E9C8EF52282C174600F8DEE8 /* ToDosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EF51282C174600F8DEE8 /* ToDosView.swift */; };
+		E9C8EF54282C180E00F8DEE8 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EF53282C180E00F8DEE8 /* ToDoList.swift */; };
+		E9C8EF56282C18C100F8DEE8 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EF55282C18C100F8DEE8 /* ToDo.swift */; };
+		E9C8EF58282C1A4400F8DEE8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8EF57282C1A4400F8DEE8 /* CardView.swift */; };
+		E9D15287282EAFB700027D36 /* ActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D15286282EAFB700027D36 /* ActionsView.swift */; };
+		E9D1528D282EDC0300027D36 /* MyGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1528C282EDC0300027D36 /* MyGradients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		E9C8EF3D282C124B00F8DEE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9C8EF3F282C125000F8DEE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C8EF42282C125000F8DEE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9C8EF51282C174600F8DEE8 /* ToDosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDosView.swift; sourceTree = "<group>"; };
+		E9C8EF53282C180E00F8DEE8 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		E9C8EF55282C18C100F8DEE8 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		E9C8EF57282C1A4400F8DEE8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E9D15286282EAFB700027D36 /* ActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsView.swift; sourceTree = "<group>"; };
+		E9D1528C282EDC0300027D36 /* MyGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGradients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,12 @@
 		E9C8EF3A282C124B00F8DEE8 /* GradientBorderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E9D1528C282EDC0300027D36 /* MyGradients.swift */,
+				E9D15286282EAFB700027D36 /* ActionsView.swift */,
+				E9C8EF57282C1A4400F8DEE8 /* CardView.swift */,
+				E9C8EF55282C18C100F8DEE8 /* ToDo.swift */,
+				E9C8EF53282C180E00F8DEE8 /* ToDoList.swift */,
+				E9C8EF51282C174600F8DEE8 /* ToDosView.swift */,
 				E9C8EF3B282C124B00F8DEE8 /* GradientBorderDemoApp.swift */,
 				E9C8EF3D282C124B00F8DEE8 /* ContentView.swift */,
 				E9C8EF3F282C125000F8DEE8 /* Assets.xcassets */,
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C8EF52282C174600F8DEE8 /* ToDosView.swift in Sources */,
+				E9C8EF56282C18C100F8DEE8 /* ToDo.swift in Sources */,
+				E9D15287282EAFB700027D36 /* ActionsView.swift in Sources */,
 				E9C8EF3E282C124B00F8DEE8 /* ContentView.swift in Sources */,
 				E9C8EF3C282C124B00F8DEE8 /* GradientBorderDemoApp.swift in Sources */,
+				E9C8EF58282C1A4400F8DEE8 /* CardView.swift in Sources */,
+				E9D1528D282EDC0300027D36 /* MyGradients.swift in Sources */,
+				E9C8EF54282C180E00F8DEE8 /* ToDoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
